@@ -2,7 +2,7 @@
 
 # Host A Static Website in Azure
 
-This lab walks you through deploying a public-facing resouce in Azure. Instead of building a complex server to host a simple website, you can use Azure Blob Storage. 
+This lab walks you through deploying a public-facing resource in Azure. Instead of building a complex server to host a simple website, you can use Azure Blob Storage. 
 
 ---
 
@@ -48,6 +48,14 @@ This lab walks you through deploying a public-facing resouce in Azure. Instead o
 2. Request routes over the public internet to **Azure's CDN edge**
 3. Azure serves `index.html` directly from the **`$web` container**
 4. Page renders in the user's browser — **no server involved**
+
+---
+
+## 💡 Why Azure Blob Storage Over A Traditional Web Server
+Azure Blob Storage with static website hosting is a PaaS solution — Microsoft manages all underlying infrastructure. There is no server to provision, patch, or maintain. For a static website serving HTML, CSS, and JavaScript files there is no need for a compute layer. This reduces cost, eliminates operational overhead, and scales automatically to handle any amount of traffic.
+
+## ☁️ AWS Equivalent
+The AWS equivalent is S3 static website hosting. Both services store files in object storage and serve them over a public HTTP/HTTPS endpoint without a web server. The Azure-specific difference is that Azure Blob Storage uses a dedicated $web container for static hosting while AWS S3 uses bucket-level website configuration.
 
 ---
 
