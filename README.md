@@ -1,6 +1,6 @@
 # [🎥 Watch Me Complete This Lab Here!](https://www.loom.com/share/49f6c80efb1944478346b1ef128702e9)
 
-# Hosting A Static Website in Azure
+# Host A Static Website in Azure
 
 This lab walks you through deploying a public-facing resouce in Azure. Instead of building a complex server to host a simple website, you can use Azure Blob Storage. 
 
