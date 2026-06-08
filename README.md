@@ -59,7 +59,7 @@ The AWS equivalent is S3 static website hosting. Both services store files in ob
 
 ---
 
-## Phase 1 — Create the Storage Account
+## Phase 1: Create the Storage Account
 
 The **Storage Account** is where your website files will live.
  
@@ -82,7 +82,7 @@ The **Storage Account** is where your website files will live.
 
 ---
 
-## Phase 2 — Enable Static Website Hosting
+## Phase 2: Enable Static Website Hosting
 
 Now we turn your storage account into a web server — with a single toggle.
 
@@ -103,7 +103,7 @@ Now we turn your storage account into a web server — with a single toggle.
 
 ---
 
-## Phase 3 — Create Your Website File
+## Phase 3: Create Your Website File
 
 Time to create the content your website will serve.
 
@@ -131,7 +131,7 @@ Now we push your file to Azure's `$web` container.
 
 ---
 
-## Phase 5 — Validation
+## Phase 5: Validation
 
 Let's confirm your website is live.
 
