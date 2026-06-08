@@ -114,7 +114,7 @@ Time to create the content your website will serve.
    
 ---
 
-## Phase 4 — Upload Content
+## Phase 4: Upload Content
 
 Now we push your file to Azure's `$web` container.
 
