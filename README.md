@@ -145,3 +145,27 @@ Let's confirm your website is live.
 
 
 🎉 **Congratulations! You have successfully deployed a serverless website on Azure.**
+
+---
+
+## 🔧 Troubleshooting
+ 
+| Issue | Cause | Fix |
+|---|---|---|
+| `404 - The requested content does not exist` | File is named incorrectly | Confirm the file is named **exactly** `index.html` (all lowercase). Azure is case-sensitive. |
+| `404 - The requested content does not exist` | File uploaded to wrong container | Verify the file was uploaded to the **`$web`** container — not any other container. |
+| `Storage account name is already taken` | Name conflicts with another Azure account globally | Add random numbers to the end of your name (e.g., `lab01ang56789`) |
+| Page is blank or broken | HTML file has errors | Re-copy the HTML snippet from Phase 4 and re-upload |
+ 
+---
+ 
+## 🧹 Clean Up Resources
+ 
+> ⚠️ **Always clean up** after labs to avoid unnecessary charges and keep your environment tidy.
+ 
+1. In the Azure Portal, navigate to **`Resource Groups`**
+2. Click on **`rg-lab01`**
+3. Click **`Delete resource group`** at the top
+4. **Type the resource group name** to confirm deletion
+5. Click **`Delete`**
+Deleting the resource group will remove **all resources inside it**, including the storage account and your website files.
